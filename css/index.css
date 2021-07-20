@@ -38,7 +38,7 @@
 }
 
 .card-img-top{
-  height:200px;
+  height:250px;
   width:100%;
   overflow: hidden;
   object-fit:cover;
@@ -66,8 +66,8 @@
   background-image: url("../images/droneback.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:500px;
-  height:30vh;
+
+  height:40vh;
   display:flex;
   align-items: center;
   justify-content: center;
