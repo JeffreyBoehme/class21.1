@@ -1,0 +1,84 @@
+.sidenav{
+  width:20%;
+  height:100vh;
+  position:fixed;
+  left:0px;
+  background-color:grey,0.01;
+  background-image: url("../images/glass.png");
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.mainbody{
+  left:20%;
+  padding:20px;
+  position: relative;
+  background-color:white;
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  width:80%
+}
+
+.headertext{
+
+  display: flex;
+  align-content:center;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+.card-img-top{
+  height:200px;
+  width:100%;
+  overflow: hidden;
+  object-fit:cover;
+}
+.card .btn{
+  position:absolute;
+  bottom:0px;
+}
+.sidenav a{
+  font-size:16pt;
+  text-align:left;
+  padding:10px;
+  font-weight: bold;
+}
+
+.sectionfooter{
+  padding:10px;
+}
+.topback{
+
+}
+
+
+.jumboBackground{
+  background-image: url("../images/droneback.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  height:30vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+color:black;
+font-weight: bold;
+
+}
+
+.logo{
+  position:fixed;
+  
+
+  top:0px;
+}
